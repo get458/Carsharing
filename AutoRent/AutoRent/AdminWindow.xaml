@@ -51,8 +51,8 @@
                         </ListView.View>
                     </ListView>
 
-                    <Button Background="White" Content="Информация" HorizontalAlignment="Left" Margin="607,328,0,0" VerticalAlignment="Top" Height="43" Width="124" Click="GetInformationUserButton_Click" Grid.Column="1"/>
-                    <Button Background="White" Content="Поиск" HorizontalAlignment="Left" Margin="607,376,0,0" VerticalAlignment="Top" Height="43" Width="124" Click="SearchUserButton_Click" Grid.Column="1"/>
+                    <Button Background="White" Content="Информация" HorizontalAlignment="Left" Margin="630,376,0,0" VerticalAlignment="Top" Height="43" Width="124" Click="GetContractInformationButton_Click" Grid.Column="1"/>
+                    <Button Background="White" Content="Поиск" HorizontalAlignment="Left" Margin="630,328,0,0" VerticalAlignment="Top" Height="43" Width="124" Click="SearchUserButton_Click" Grid.Column="1"/>
                 </Grid>
             </TabItem>
 

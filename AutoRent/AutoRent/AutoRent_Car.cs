@@ -10,7 +10,7 @@ namespace AutoRent
     public class AutoRent_Car
     {
         public int ID { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         public decimal PriceForContract { get; set; }
         public int? TypeID { get; set; }
         [ForeignKey("TypeID")]

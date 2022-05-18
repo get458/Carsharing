@@ -40,3 +40,6 @@ Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows
 Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\AdminWindow.baml
 Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\PassportWindow.baml
 Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\RegWindow.baml
+Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\UserInf.g.cs
+Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\UserInf.baml
+Z:\2 курс\курсач\Carsharing\AutoRent\AutoRent\obj\Debug\net6.0-windows\AutoRent.Migrations.editCarName.resources

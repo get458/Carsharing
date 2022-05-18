@@ -27,14 +27,37 @@ namespace AutoRent
             }
         }
 
-        public static List<AutoRent_Car> GetCarInformation()
+        public static int GetUserID(string login)
+        {
+            int userID;
+
+            using (Context context = new Context())
+            {
+
+                var user = context.autoRent_Users.Where(u => u.Login == login).Select(u => new { userID = u.ID }).ToList();
+                return userID = user.First().userID;
+
+            }
+        }
+
+        public static List<AutoRent_Contract> GetContractInformation(int userID)
         {
             using (Context context = new Context())
             {
 
-                var carInf = context.autoRent_Cars.
-                    Select()
+                var contractInfo = context.autoRent_Contracts.Where(c => c.UserID == userID).ToList();
+                return contractInfo;
 
+            }
+        }
+
+        public static string GetCar(int carID)
+        {
+            string? carName;
+            using (Context context = new Context())
+            {
+                carName = context.autoRent_Cars.Where(c => c.ID == carID).Select(c => new { carName = c.Name }).ToString();
+                return carName;
             }
         }
 

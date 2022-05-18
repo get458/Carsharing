@@ -41,7 +41,7 @@ namespace AutoRent
 
         }
 
-        private void GetInformationUserButton_Click(object sender, RoutedEventArgs e)
+        private void GetContractInformationButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
